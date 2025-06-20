@@ -32,3 +32,4 @@ const people = [
         image: 'https://course-api.com/images/people/person-4.jpeg'
     }
 ]
+export default people;

@@ -25,6 +25,7 @@ html {
   font-size: 5rem;
   color: rgb(28, 31, 222);
   margin-top: 20px;
+  cursor: pointer;
 }
 .main button {
   font-size: 2rem;
