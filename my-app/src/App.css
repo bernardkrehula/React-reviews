@@ -5,15 +5,64 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main {
+  display: flex;
+  flex-direction: column;
   width: 800px;
-  background-color: red;
-  marg;
+  background-color: rgb(255, 255, 255);
+  margin: 250px auto;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 10px;
+  padding-top: 50px;
+  box-shadow: 0px 10px 15px 0px rgb(0, 0, 0, 0.2);
 }
 .brackets{
   display: flex;
   gap: 25px;
   font-size: 5rem;
   color: rgb(28, 31, 222);
+  margin-top: 20px;
+}
+.main button {
+  font-size: 2rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: blueviolet;
+  background-color: rgb(220, 182, 255);
+  transition: 0.2s ease-in-out;
+  margin-top: 20px;
+}
+.main button:hover {
+  background-color: rgb(73, 6, 181);
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.main img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.main h4 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+.main h1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.main h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(55, 0, 255);
 }
