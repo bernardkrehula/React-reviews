@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 800px;
+  background-color: red;
+  marg;
+}
+.brackets{
+  display: flex;
+  gap: 25px;
+  font-size: 5rem;
+  color: rgb(28, 31, 222);
+}
